@@ -7,3 +7,6 @@ Results and plots corresponding to `run_1.py` in `run_1` directory is used in th
 
 ## plot_multi_results.ipynb
 Essentially compares the posterior from two methods: when the surrogate of the forward model is used `run_1.py` and when not used `run_2.py`.
+
+## posterior_update_codes.ipynb
+Notebook was used to develop script to run MCMC. 
