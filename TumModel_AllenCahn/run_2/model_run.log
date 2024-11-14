@@ -1,0 +1,108 @@
+
+
+save_suf = at_prior_sample
+
+
+
+ Test parameters = [0.32723757 0.05637604 0.01373436 2.17916426]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 1.1923454107206624
+
+QoI using exact
+Q(u) = 1.0537398406500464
+Error Q(u) - Q(u0) = -0.1386055700706159, Percent error = -11.624615553880622
+Estimate 1 Q(u) - Q(u0) = 0.38944671098604006, Percent error = 32.66223927097229
+Estimate 2 Q(u) - Q(u0) = 1.2645571896431642, Percent error = 106.0562801913966
+Estimate 3 Q(u) - Q(u0) = -0.08920240103875317, Percent error = -7.481255032032922
+
+QoI using approximate
+
+Q(u) = 1.0794722175187816
+Error Q(u) - Q(u0) = -0.11287319320188072, Percent error = -9.46648447564027
+Estimate 1 Q(u) - Q(u0) = 0.4311461584417479, Percent error = 36.15950164819773
+Estimate 2 Q(u) - Q(u0) = 5.001443799826294, Percent error = 419.46266198176454
+
+
+Estimate 3 Q(u) - Q(u0) = -0.06998877334058143, Percent error = -5.869840459928445
+
+
+
+save_suf = at_posterior_real_mean
+
+
+
+ Test parameters = [0.84536943 0.08710974 0.01068447 0.96311121]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 1.1923454107206624
+
+QoI using exact
+Q(u) = 1.1617192995242194
+Error Q(u) - Q(u0) = -0.030626111196442984, Percent error = -2.5685603283307255
+Estimate 1 Q(u) - Q(u0) = 0.47184601031597084, Percent error = 39.57292962873767
+Estimate 2 Q(u) - Q(u0) = 0.6032039545326017, Percent error = 50.589699017503726
+Estimate 3 Q(u) - Q(u0) = -0.029466929976390104, Percent error = -2.4713417531065995
+
+QoI using approximate
+
+Q(u) = 1.1756389615253737
+Error Q(u) - Q(u0) = -0.01670644919528863, Percent error = -1.401141736704562
+Estimate 1 Q(u) - Q(u0) = 0.48378431370073544, Percent error = 40.57417501261926
+Estimate 2 Q(u) - Q(u0) = 1.1792088696350718, Percent error = 98.89826043967822
+
+
+Estimate 3 Q(u) - Q(u0) = -0.016118355542101358, Percent error = -1.3518193131937586
+
+
+
+save_suf = at_posterior_ln_mean
+
+
+
+ Test parameters = [0.82764543 0.08274859 0.00990978 0.87585772]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 1.1923454107206624
+
+QoI using exact
+Q(u) = 1.169481862191574
+Error Q(u) - Q(u0) = -0.02286354852908845, Percent error = -1.917527280561222
+Estimate 1 Q(u) - Q(u0) = 0.47650378158490114, Percent error = 39.96356905478411
+Estimate 2 Q(u) - Q(u0) = 0.57496282018342, Percent error = 48.221162677676446
+Estimate 3 Q(u) - Q(u0) = -0.02626128404250272, Percent error = -2.202489631476017
+
+QoI using approximate
+
+Q(u) = 1.1852778037503169
+Error Q(u) - Q(u0) = -0.007067606970345475, Percent error = -0.5927482847502856
+Estimate 1 Q(u) - Q(u0) = 0.4885947967037594, Percent error = 40.97762211442145
+Estimate 2 Q(u) - Q(u0) = 1.0928392850535271, Percent error = 91.65458894943933
+
+
+Estimate 3 Q(u) - Q(u0) = -0.011255887565081578, Percent error = -0.9440123192388048
+
