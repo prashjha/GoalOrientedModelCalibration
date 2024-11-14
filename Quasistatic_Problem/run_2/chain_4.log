@@ -1,0 +1,1564 @@
+pwd: /Users/prashant/Dropbox/Work/Simulations/TumorModeling/PosteriorAnalysis/Quasistatic_Problem
+py file: run_2
+ 
+Running chain 4
+ 
+Arguments passed: 
+Namespace(chain_id=4)
+WARNING: user expression has not supplied value_shape method or an element. Assuming scalar element.
+
+
+Getting low-fidelity solution
+
+Solve LF problem with parameters [0.25]
+
+
+Compute error at one parameter sample
+
+test parameter: <dolfin.cpp.la.Vector object at 0x7fc3c02eb630>
+
+
+Solve original forward and dual problem
+
+Solve with parameters [0.56204639 8.21454065]
+
+
+Solve for approximate errors
+
+Solve for errors with parameters [0.56204639 8.21454065]
+
+ *** comparing various estimates ***
+
+
+Q(u0) =  0.3357726236370517
+
+
+QoI using exact
+
+Q(u) =  0.08748365716253477
+
+Error Q(u) - Q(u0) =  -0.24828896647451693
+
+Estimate 1 Q(u) - Q(u0) =  -0.2604458902812364
+
+Estimate 2 Q(u) - Q(u0) =  -0.12853774859658718
+
+
+QoI using approximate
+
+
+Q(u) =  0.10299362565745503
+
+Error Q(u) - Q(u0) =  -0.23277899797959667
+
+Estimate 1 Q(u) - Q(u0) =  -0.2327789979795509
+
+Estimate 2 Q(u) - Q(u0) =  -0.12692576120415539
+
+
+ *** Running MCMC simulation ***
+
+
+Solve with parameters [0.56204639 8.21454065]
+  Count:  0 , QoI:  [-0.24828897]
+Acceptance ratio:  0.0 %
+Solve with parameters [0.49364316 7.6522364 ]
+  Count:  10 , QoI:  [-0.23861074]
+Acceptance ratio:  27.27272727272727 %
+Solve with parameters [0.34912032 5.71036211]
+  Count:  20 , QoI:  [-0.20186564]
+Acceptance ratio:  38.095238095238095 %
+Solve with parameters [0.22678119 4.60296001]
+  Count:  30 , QoI:  [-0.14977265]
+Acceptance ratio:  35.483870967741936 %
+Solve with parameters [0.23735865 2.9708339 ]
+  Count:  40 , QoI:  [-0.11910103]
+Acceptance ratio:  39.02439024390244 %
+Solve with parameters [0.18863405 2.63546276]
+  Count:  50 , QoI:  [-0.07600985]
+Acceptance ratio:  41.17647058823529 %
+Solve with parameters [0.16713459 2.01612936]
+  Count:  60 , QoI:  [-0.02937651]
+Acceptance ratio:  36.0655737704918 %
+Solve with parameters [0.12911267 2.42166626]
+  Count:  70 , QoI:  [-0.00423474]
+Acceptance ratio:  33.80281690140845 %
+Solve with parameters [0.11951063 2.37245219]
+  Count:  80 , QoI:  [0.01227953]
+Acceptance ratio:  32.098765432098766 %
+Solve with parameters [0.10691385 3.03551127]
+  Count:  90 , QoI:  [-0.00918498]
+Acceptance ratio:  29.67032967032967 %
+Solve with parameters [0.11623819 2.93848243]
+  Count:  100 , QoI:  [-0.01603272]
+Acceptance ratio:  27.722772277227726 %
+Solve with parameters [0.17096492 2.335619  ]
+  Count:  110 , QoI:  [-0.04823617]
+Acceptance ratio:  27.927927927927925 %
+Solve with parameters [0.15426427 1.8771165 ]
+  Count:  120 , QoI:  [-0.00653545]
+Acceptance ratio:  26.446280991735538 %
+Solve with parameters [0.15828907 1.8734783 ]
+  Count:  130 , QoI:  [-0.01147309]
+Acceptance ratio:  25.190839694656486 %
+Solve with parameters [0.16043534 2.10834488]
+  Count:  140 , QoI:  [-0.02634449]
+Acceptance ratio:  26.95035460992908 %
+Solve with parameters [0.14389882 1.96420978]
+  Count:  150 , QoI:  [0.00228542]
+Acceptance ratio:  27.81456953642384 %
+Solve with parameters [0.16277772 2.2117142 ]
+  Count:  160 , QoI:  [-0.03403324]
+Acceptance ratio:  27.95031055900621 %
+Solve with parameters [0.15909879 2.00368218]
+  Count:  170 , QoI:  [-0.01942102]
+Acceptance ratio:  26.900584795321635 %
+Solve with parameters [0.15597022 1.86859055]
+  Count:  180 , QoI:  [-0.00825916]
+Acceptance ratio:  27.071823204419886 %
+Solve with parameters [0.14654752 2.00038193]
+  Count:  190 , QoI:  [-0.0033988]
+Acceptance ratio:  28.272251308900525 %
+Solve with parameters [0.17289067 2.07733479]
+  Count:  200 , QoI:  [-0.03857112]
+Acceptance ratio:  27.363184079601986 %
+Solve with parameters [0.17895072 1.89509029]
+  Count:  210 , QoI:  [-0.03648653]
+Acceptance ratio:  27.96208530805687 %
+Solve with parameters [0.12516399 2.48717302]
+  Count:  220 , QoI:  [-0.00266377]
+Acceptance ratio:  28.50678733031674 %
+Solve with parameters [0.15357265 2.3964756 ]
+  Count:  230 , QoI:  [-0.03276633]
+Acceptance ratio:  28.13852813852814 %
+Solve with parameters [0.14002007 2.20160204]
+  Count:  240 , QoI:  [-0.00621692]
+Acceptance ratio:  27.385892116182575 %
+Solve with parameters [0.16036077 2.29305969]
+  Count:  250 , QoI:  [-0.03527377]
+Acceptance ratio:  26.294820717131472 %
+Solve with parameters [0.15329785 1.97315715]
+  Count:  260 , QoI:  [-0.0106329]
+Acceptance ratio:  26.436781609195403 %
+Solve with parameters [0.15743042 2.38610449]
+  Count:  270 , QoI:  [-0.03649842]
+Acceptance ratio:  26.937269372693727 %
+Solve with parameters [0.1399288  2.57183505]
+  Count:  280 , QoI:  [-0.02586274]
+Acceptance ratio:  27.402135231316727 %
+Solve with parameters [0.1277221  2.29082612]
+  Count:  290 , QoI:  [0.00537299]
+Acceptance ratio:  27.835051546391753 %
+Solve with parameters [0.13482866 2.31379391]
+  Count:  300 , QoI:  [-0.00571442]
+Acceptance ratio:  27.906976744186046 %
+Solve with parameters [0.11683848 2.38548449]
+  Count:  310 , QoI:  [0.01546771]
+Acceptance ratio:  27.652733118971064 %
+Solve with parameters [0.10197787 3.2577901 ]
+  Count:  320 , QoI:  [-0.01485843]
+Acceptance ratio:  27.725856697819314 %
+Solve with parameters [0.0934847  3.84367812]
+  Count:  330 , QoI:  [-0.03409965]
+Acceptance ratio:  28.09667673716012 %
+Solve with parameters [0.08465938 3.27724918]
+  Count:  340 , QoI:  [0.00839464]
+Acceptance ratio:  28.152492668621704 %
+Solve with parameters [0.0771963  3.39680591]
+  Count:  350 , QoI:  [0.01254032]
+Acceptance ratio:  27.635327635327634 %
+Solve with parameters [0.10255957 2.87294567]
+  Count:  360 , QoI:  [0.00638334]
+Acceptance ratio:  27.70083102493075 %
+Solve with parameters [0.10229307 3.15309504]
+  Count:  370 , QoI:  [-0.00954402]
+Acceptance ratio:  27.22371967654987 %
+Solve with parameters [0.10795686 3.20838292]
+  Count:  380 , QoI:  [-0.01986813]
+Acceptance ratio:  27.296587926509186 %
+Solve with parameters [0.11248485 2.60494894]
+  Count:  390 , QoI:  [0.00821804]
+Acceptance ratio:  27.365728900255753 %
+Solve with parameters [0.13579711 2.87143967]
+  Count:  400 , QoI:  [-0.03581229]
+Acceptance ratio:  27.93017456359102 %
+Solve with parameters [0.10598553 2.87259662]
+  Count:  410 , QoI:  [0.00145442]
+Acceptance ratio:  27.980535279805352 %
+Solve with parameters [0.12419626 2.57115153]
+  Count:  420 , QoI:  [-0.00616351]
+Acceptance ratio:  27.315914489311165 %
+Solve with parameters [0.10423905 2.67305471]
+  Count:  430 , QoI:  [0.01635327]
+Acceptance ratio:  27.37819025522042 %
+Solve with parameters [0.11179529 2.96293461]
+  Count:  440 , QoI:  [-0.01162782]
+Acceptance ratio:  27.89115646258503 %
+Solve with parameters [0.09282601 3.18434703]
+  Count:  450 , QoI:  [0.0018657]
+Acceptance ratio:  28.38137472283814 %
+Solve with parameters [0.08964705 3.95985118]
+  Count:  460 , QoI:  [-0.03513105]
+Acceptance ratio:  28.41648590021692 %
+Solve with parameters [0.0802322  3.50002149]
+  Count:  470 , QoI:  [0.00159992]
+Acceptance ratio:  28.874734607218684 %
+Solve with parameters [0.09899703 3.49405105]
+  Count:  480 , QoI:  [-0.02347178]
+Acceptance ratio:  28.690228690228693 %
+Solve with parameters [0.08441359 3.15237176]
+  Count:  490 , QoI:  [0.01663878]
+Acceptance ratio:  28.5132382892057 %
+Solve with parameters [0.12121446 2.71698524]
+  Count:  500 , QoI:  [-0.01038958]
+Acceptance ratio:  27.944111776447105 %
+Solve with parameters [0.09675987 3.0425758 ]
+  Count:  510 , QoI:  [0.00461155]
+Acceptance ratio:  27.984344422700584 %
+Solve with parameters [0.1217124  2.82414337]
+  Count:  520 , QoI:  [-0.01684401]
+Acceptance ratio:  28.21497120921305 %
+Solve with parameters [0.12424155 2.60424492]
+  Count:  530 , QoI:  [-0.00808798]
+Acceptance ratio:  27.87193973634652 %
+Solve with parameters [0.13091708 2.27185651]
+  Count:  540 , QoI:  [0.00202096]
+Acceptance ratio:  27.911275415896487 %
+Solve with parameters [0.11665825 2.48608602]
+  Count:  550 , QoI:  [0.00942026]
+Acceptance ratio:  27.76769509981851 %
+Solve with parameters [0.10470663 2.9651262 ]
+  Count:  560 , QoI:  [-0.00216832]
+Acceptance ratio:  27.629233511586452 %
+Solve with parameters [0.11002548 2.75732591]
+  Count:  570 , QoI:  [0.0025525]
+Acceptance ratio:  27.670753064798596 %
+Solve with parameters [0.10647703 3.03160869]
+  Count:  580 , QoI:  [-0.00838167]
+Acceptance ratio:  27.710843373493976 %
+Solve with parameters [0.12276447 2.82988866]
+  Count:  590 , QoI:  [-0.01846384]
+Acceptance ratio:  27.411167512690355 %
+Solve with parameters [0.12802364 3.04510887]
+  Count:  600 , QoI:  [-0.03543227]
+Acceptance ratio:  27.620632279534107 %
+Solve with parameters [0.09161177 2.79625528]
+  Count:  610 , QoI:  [0.02852467]
+Acceptance ratio:  27.823240589198033 %
+Solve with parameters [0.12311642 3.37134646]
+  Count:  620 , QoI:  [-0.04514095]
+Acceptance ratio:  27.697262479871178 %
+Solve with parameters [0.13393303 1.98425036]
+  Count:  630 , QoI:  [0.01531516]
+Acceptance ratio:  28.05071315372425 %
+Solve with parameters [0.17123414 2.09841649]
+  Count:  640 , QoI:  [-0.03779771]
+Acceptance ratio:  28.081123244929795 %
+Solve with parameters [0.10561026 3.00421558]
+  Count:  650 , QoI:  [-0.00566158]
+Acceptance ratio:  28.110599078341014 %
+Solve with parameters [0.12262308 2.39724809]
+  Count:  660 , QoI:  [0.00620723]
+Acceptance ratio:  28.139183055975792 %
+Solve with parameters [0.13453562 2.61156407]
+  Count:  670 , QoI:  [-0.0214788]
+Acceptance ratio:  28.46497764530551 %
+Solve with parameters [0.08456694 3.40303047]
+  Count:  680 , QoI:  [0.00095397]
+Acceptance ratio:  28.634361233480178 %
+Solve with parameters [0.09352208 3.86621066]
+  Count:  690 , QoI:  [-0.03521463]
+Acceptance ratio:  28.798842257597684 %
+Solve with parameters [0.09966448 3.56551776]
+  Count:  700 , QoI:  [-0.02789065]
+Acceptance ratio:  28.673323823109843 %
+Solve with parameters [0.09200059 3.40026737]
+  Count:  710 , QoI:  [-0.00937948]
+Acceptance ratio:  28.41068917018284 %
+Solve with parameters [0.09284863 3.07199144]
+  Count:  720 , QoI:  [0.00862879]
+Acceptance ratio:  28.29403606102635 %
+Solve with parameters [0.10671042 3.26575361]
+  Count:  730 , QoI:  [-0.0212993]
+Acceptance ratio:  28.317373461012313 %
+Solve with parameters [0.10621925 3.90934706]
+  Count:  740 , QoI:  [-0.05104991]
+Acceptance ratio:  28.34008097165992 %
+Solve with parameters [0.10819898 3.2749462 ]
+  Count:  750 , QoI:  [-0.02360987]
+Acceptance ratio:  28.495339547270305 %
+Solve with parameters [0.10805891 3.26500974]
+  Count:  760 , QoI:  [-0.02292895]
+Acceptance ratio:  28.51511169513798 %
+Solve with parameters [0.11292266 3.83464357]
+  Count:  770 , QoI:  [-0.0546924]
+Acceptance ratio:  28.534370946822307 %
+Solve with parameters [0.1027627  3.31969647]
+  Count:  780 , QoI:  [-0.0191585]
+Acceptance ratio:  28.425096030729836 %
+Solve with parameters [0.11014368 3.25241447]
+  Count:  790 , QoI:  [-0.02483216]
+Acceptance ratio:  28.192161820480404 %
+Solve with parameters [0.13847196 2.79994148]
+  Count:  800 , QoI:  [-0.03537257]
+Acceptance ratio:  28.214731585518106 %
+Solve with parameters [0.11554179 2.79491505]
+  Count:  810 , QoI:  [-0.00723993]
+Acceptance ratio:  28.36004932182491 %
+Solve with parameters [0.11855667 2.93223983]
+  Count:  820 , QoI:  [-0.01861977]
+Acceptance ratio:  28.501827040194883 %
+Solve with parameters [0.11887205 2.53440459]
+  Count:  830 , QoI:  [0.00329279]
+Acceptance ratio:  28.880866425992778 %
+Solve with parameters [0.10916718 2.22938147]
+  Count:  840 , QoI:  [0.03843992]
+Acceptance ratio:  28.894173602853744 %
+Solve with parameters [0.14034208 2.57614931]
+  Count:  850 , QoI:  [-0.02656249]
+Acceptance ratio:  29.024676850763807 %
+Solve with parameters [0.12651001 2.80051809]
+  Count:  860 , QoI:  [-0.02153519]
+Acceptance ratio:  29.036004645760745 %
+Solve with parameters [0.12861653 2.30990622]
+  Count:  870 , QoI:  [0.00296895]
+Acceptance ratio:  29.161882893226178 %
+Solve with parameters [0.13880322 2.16188317]
+  Count:  880 , QoI:  [-0.00233053]
+Acceptance ratio:  29.171396140749152 %
+Solve with parameters [0.14386237 2.21575982]
+  Count:  890 , QoI:  [-0.01196433]
+Acceptance ratio:  29.51739618406285 %
+Solve with parameters [0.15035636 2.23433061]
+  Count:  900 , QoI:  [-0.02094967]
+Acceptance ratio:  29.3007769145394 %
+Solve with parameters [0.14108309 1.9621674 ]
+  Count:  910 , QoI:  [0.00632621]
+Acceptance ratio:  29.418221734357846 %
+Solve with parameters [0.13209927 2.31223103]
+  Count:  920 , QoI:  [-0.00196601]
+Acceptance ratio:  29.53311617806732 %
+Solve with parameters [0.0956587  3.39149862]
+  Count:  930 , QoI:  [-0.0138035]
+Acceptance ratio:  29.64554242749731 %
+Solve with parameters [0.11162216 2.88752241]
+  Count:  940 , QoI:  [-0.00720137]
+Acceptance ratio:  29.543039319872477 %
+Solve with parameters [0.11850249 2.73713069]
+  Count:  950 , QoI:  [-0.007939]
+Acceptance ratio:  29.547844374342798 %
+Solve with parameters [0.09376552 3.30223458]
+  Count:  960 , QoI:  [-0.00630032]
+Acceptance ratio:  29.656607700312176 %
+Solve with parameters [0.09875505 2.84218288]
+  Count:  970 , QoI:  [0.01401339]
+Acceptance ratio:  29.45417095777549 %
+Solve with parameters [0.08320597 3.45135365]
+  Count:  980 , QoI:  [9.86897206e-05]
+Acceptance ratio:  29.45973496432212 %
+Solve with parameters [0.08212121 3.27124794]
+  Count:  990 , QoI:  [0.01269204]
+Acceptance ratio:  29.868819374369327 %
+Solve with parameters [0.08379088 3.72041517]
+  Count:  1000 , QoI:  [-0.01578334]
+Acceptance ratio:  29.97002997002997 %
+Solve with parameters [0.07922636 3.61252979]
+  Count:  1010 , QoI:  [-0.00349048]
+Acceptance ratio:  29.772502472799207 %
+Solve with parameters [0.07478846 3.30969262]
+  Count:  1020 , QoI:  [0.02207928]
+Acceptance ratio:  29.578844270323213 %
+Solve with parameters [0.099338   3.17734539]
+  Count:  1030 , QoI:  [-0.0069007]
+Acceptance ratio:  29.67992240543162 %
+Solve with parameters [0.10007552 3.25674781]
+  Count:  1040 , QoI:  [-0.01230568]
+Acceptance ratio:  29.490874159462056 %
+Solve with parameters [0.10078244 3.15227453]
+  Count:  1050 , QoI:  [-0.00745747]
+Acceptance ratio:  29.495718363463368 %
+Solve with parameters [0.11410959 3.36641984]
+  Count:  1060 , QoI:  [-0.03508291]
+Acceptance ratio:  29.4062205466541 %
+Solve with parameters [0.09858682 2.89471992]
+  Count:  1070 , QoI:  [0.01096271]
+Acceptance ratio:  29.598506069094306 %
+Solve with parameters [0.10103162 2.74065685]
+  Count:  1080 , QoI:  [0.01698306]
+Acceptance ratio:  29.78723404255319 %
+Solve with parameters [0.09959933 2.82907315]
+  Count:  1090 , QoI:  [0.01354784]
+Acceptance ratio:  29.789184234647117 %
+Solve with parameters [0.1070972  3.21617671]
+  Count:  1100 , QoI:  [-0.01919668]
+Acceptance ratio:  29.609445958219798 %
+Solve with parameters [0.11588752 2.35545978]
+  Count:  1110 , QoI:  [0.0188567]
+Acceptance ratio:  29.7029702970297 %
+Solve with parameters [0.11741933 2.66412311]
+  Count:  1120 , QoI:  [-0.00231313]
+Acceptance ratio:  29.6164139161463 %
+Solve with parameters [0.11718045 2.68440859]
+  Count:  1130 , QoI:  [-0.00315809]
+Acceptance ratio:  29.708222811671085 %
+Solve with parameters [0.12318864 3.00947188]
+  Count:  1140 , QoI:  [-0.02817442]
+Acceptance ratio:  29.53549517966696 %
+Solve with parameters [0.12182727 2.80679919]
+  Count:  1150 , QoI:  [-0.01606279]
+Acceptance ratio:  29.365768896611645 %
+Solve with parameters [0.13233478 2.51073286]
+  Count:  1160 , QoI:  [-0.0134071]
+Acceptance ratio:  29.71576227390181 %
+Solve with parameters [0.11373227 3.0668675 ]
+  Count:  1170 , QoI:  [-0.01967792]
+Acceptance ratio:  29.63279248505551 %
+Solve with parameters [0.1322513  3.01914216]
+  Count:  1180 , QoI:  [-0.03886363]
+Acceptance ratio:  29.635901778154107 %
+Solve with parameters [0.12697662 2.73982076]
+  Count:  1190 , QoI:  [-0.01893955]
+Acceptance ratio:  29.638958858102438 %
+Solve with parameters [0.14636635 2.09203934]
+  Count:  1200 , QoI:  [-0.00834064]
+Acceptance ratio:  29.475437135720234 %
+Solve with parameters [0.17021193 1.9280271 ]
+  Count:  1210 , QoI:  [-0.0284955]
+Acceptance ratio:  29.31461601981833 %
+Solve with parameters [0.13126627 2.31262155]
+  Count:  1220 , QoI:  [-0.00085466]
+Acceptance ratio:  29.238329238329236 %
+Solve with parameters [0.142179   2.32217522]
+  Count:  1230 , QoI:  [-0.01560707]
+Acceptance ratio:  29.000812347684807 %
+Solve with parameters [0.13728659 2.5307826 ]
+  Count:  1240 , QoI:  [-0.02061393]
+Acceptance ratio:  28.928283642224013 %
+Solve with parameters [0.13207247 2.34140642]
+  Count:  1250 , QoI:  [-0.00361186]
+Acceptance ratio:  29.016786570743403 %
+Solve with parameters [0.12843627 2.68153544]
+  Count:  1260 , QoI:  [-0.01767111]
+Acceptance ratio:  28.945281522601114 %
+Solve with parameters [0.12223105 2.71824116]
+  Count:  1270 , QoI:  [-0.01178065]
+Acceptance ratio:  28.95357985837923 %
+Solve with parameters [0.09626921 2.95637642]
+  Count:  1280 , QoI:  [0.01062671]
+Acceptance ratio:  28.96174863387978 %
+Solve with parameters [0.10340951 2.80479223]
+  Count:  1290 , QoI:  [0.00930836]
+Acceptance ratio:  28.814872192099152 %
+Solve with parameters [0.11731364 3.12753861]
+  Count:  1300 , QoI:  [-0.02713845]
+Acceptance ratio:  28.747117601844735 %
+Solve with parameters [0.12791428 3.02790236]
+  Count:  1310 , QoI:  [-0.03448985]
+Acceptance ratio:  28.680396643783375 %
+Solve with parameters [0.10740217 3.15618173]
+  Count:  1320 , QoI:  [-0.01640682]
+Acceptance ratio:  28.61468584405753 %
+Solve with parameters [0.11988013 2.65624142]
+  Count:  1330 , QoI:  [-0.00520892]
+Acceptance ratio:  28.70022539444027 %
+Solve with parameters [0.12279984 3.19721231]
+  Count:  1340 , QoI:  [-0.03681724]
+Acceptance ratio:  28.70991797166294 %
+Solve with parameters [0.11982332 2.77407294]
+  Count:  1350 , QoI:  [-0.01172376]
+Acceptance ratio:  28.793486306439675 %
+Solve with parameters [0.14186743 2.86368961]
+  Count:  1360 , QoI:  [-0.04200753]
+Acceptance ratio:  28.87582659808964 %
+Solve with parameters [0.1335119  2.28664833]
+  Count:  1370 , QoI:  [-0.00239911]
+Acceptance ratio:  29.029905178701675 %
+Solve with parameters [0.1718159  2.12064141]
+  Count:  1380 , QoI:  [-0.03944491]
+Acceptance ratio:  29.109341057204922 %
+Solve with parameters [0.13059515 2.1201539 ]
+  Count:  1390 , QoI:  [0.01169719]
+Acceptance ratio:  29.043853342918762 %
+Solve with parameters [0.1405204  2.07016744]
+  Count:  1400 , QoI:  [0.00067724]
+Acceptance ratio:  29.1220556745182 %
+Solve with parameters [0.1614005  1.85535296]
+  Count:  1410 , QoI:  [-0.01436531]
+Acceptance ratio:  29.199149539333806 %
+Solve with parameters [0.12121535 2.27507671]
+  Count:  1420 , QoI:  [0.01588535]
+Acceptance ratio:  29.345531315974664 %
+Solve with parameters [0.14071417 2.17759502]
+  Count:  1430 , QoI:  [-0.00577294]
+Acceptance ratio:  29.21034241788959 %
+Solve with parameters [0.1469772  2.46772313]
+  Count:  1440 , QoI:  [-0.02881792]
+Acceptance ratio:  29.00763358778626 %
+Solve with parameters [0.14394153 2.12926228]
+  Count:  1450 , QoI:  [-0.00727665]
+Acceptance ratio:  29.083390764989662 %
+Solve with parameters [0.13574479 2.02839794]
+  Count:  1460 , QoI:  [0.00989692]
+Acceptance ratio:  28.952772073921974 %
+Solve with parameters [0.16002668 1.9851916 ]
+  Count:  1470 , QoI:  [-0.01956798]
+Acceptance ratio:  28.891910265125766 %
+Solve with parameters [0.14433065 2.12077304]
+  Count:  1480 , QoI:  [-0.00730715]
+Acceptance ratio:  28.831870357866308 %
+Solve with parameters [0.14270977 1.90137587]
+  Count:  1490 , QoI:  [0.00771343]
+Acceptance ratio:  28.772635814889334 %
+Solve with parameters [0.14176553 2.15346699]
+  Count:  1500 , QoI:  [-0.00579156]
+Acceptance ratio:  28.980679546968684 %
+Solve with parameters [0.16628214 2.1035732 ]
+  Count:  1510 , QoI:  [-0.03268623]
+Acceptance ratio:  28.85506287227002 %
+Solve with parameters [0.16145342 2.19829242]
+  Count:  1520 , QoI:  [-0.03192767]
+Acceptance ratio:  28.66535174227482 %
+Solve with parameters [0.13050433 2.2539516 ]
+  Count:  1530 , QoI:  [0.00366178]
+Acceptance ratio:  28.543435662965383 %
+Solve with parameters [0.15504226 2.41422327]
+  Count:  1540 , QoI:  [-0.03523436]
+Acceptance ratio:  28.552887735236858 %
+Solve with parameters [0.14227212 2.28310317]
+  Count:  1550 , QoI:  [-0.0136198]
+Acceptance ratio:  28.562217923920052 %
+Solve with parameters [0.13996096 2.28172954]
+  Count:  1560 , QoI:  [-0.01061046]
+Acceptance ratio:  28.507367072389496 %
+Solve with parameters [0.12750381 2.100312  ]
+  Count:  1570 , QoI:  [0.01756169]
+Acceptance ratio:  28.389560789306174 %
+Solve with parameters [0.17578029 1.75773   ]
+  Count:  1580 , QoI:  [-0.02633644]
+Acceptance ratio:  28.27324478178368 %
+Solve with parameters [0.15744458 2.08197149]
+  Count:  1590 , QoI:  [-0.02151194]
+Acceptance ratio:  28.346951602765557 %
+Solve with parameters [0.17405129 2.00147062]
+  Count:  1600 , QoI:  [-0.03625665]
+Acceptance ratio:  28.357276702061213 %
+Solve with parameters [0.16415288 2.07599611]
+  Count:  1610 , QoI:  [-0.02896881]
+Acceptance ratio:  28.243327126008687 %
+Solve with parameters [0.13906215 2.15096336]
+  Count:  1620 , QoI:  [-0.00204843]
+Acceptance ratio:  28.192473781616282 %
+Solve with parameters [0.16031503 2.05893483]
+  Count:  1630 , QoI:  [-0.02370903]
+Acceptance ratio:  28.203556100551808 %
+Solve with parameters [0.14337763 1.88630886]
+  Count:  1640 , QoI:  [0.00768355]
+Acceptance ratio:  28.153564899451556 %
+Solve with parameters [0.13880802 2.27908951]
+  Count:  1650 , QoI:  [-0.00897842]
+Acceptance ratio:  28.16474863718958 %
+Solve with parameters [0.13128263 2.6644803 ]
+  Count:  1660 , QoI:  [-0.02027939]
+Acceptance ratio:  28.115593016255268 %
+Solve with parameters [0.10293513 2.22153707]
+  Count:  1670 , QoI:  [0.05012979]
+Acceptance ratio:  28.186714542190305 %
+Solve with parameters [0.11903465 2.67591252]
+  Count:  1680 , QoI:  [-0.00518974]
+Acceptance ratio:  28.13801308744795 %
+Solve with parameters [0.12063177 3.06094641]
+  Count:  1690 , QoI:  [-0.02773402]
+Acceptance ratio:  28.0307510348906 %
+Solve with parameters [0.12882142 3.02663817]
+  Count:  1700 , QoI:  [-0.03544335]
+Acceptance ratio:  28.10111699000588 %
+Solve with parameters [0.11570527 2.52549724]
+  Count:  1710 , QoI:  [0.00838747]
+Acceptance ratio:  28.053769725306836 %
+Solve with parameters [0.12040439 2.6498945 ]
+  Count:  1720 , QoI:  [-0.00555336]
+Acceptance ratio:  28.12318419523533 %
+Solve with parameters [0.12462905 2.84561998]
+  Count:  1730 , QoI:  [-0.02158084]
+Acceptance ratio:  28.07625649913345 %
+Solve with parameters [0.11871011 3.53987354]
+  Count:  1740 , QoI:  [-0.04798339]
+Acceptance ratio:  28.087306145893166 %
+Solve with parameters [0.13817917 2.98276077]
+  Count:  1750 , QoI:  [-0.04352483]
+Acceptance ratio:  28.041119360365506 %
+Solve with parameters [0.14417821 2.5539262 ]
+  Count:  1760 , QoI:  [-0.0298768]
+Acceptance ratio:  27.995457126632594 %
+Solve with parameters [0.14293848 2.35190834]
+  Count:  1770 , QoI:  [-0.01812378]
+Acceptance ratio:  28.00677583286279 %
+Solve with parameters [0.12684983 2.27692707]
+  Count:  1780 , QoI:  [0.00746202]
+Acceptance ratio:  28.07411566535654 %
+Solve with parameters [0.13046532 2.49935956]
+  Count:  1790 , QoI:  [-0.0103872]
+Acceptance ratio:  28.029034059184816 %
+Solve with parameters [0.11531798 2.99324488]
+  Count:  1800 , QoI:  [-0.01778555]
+Acceptance ratio:  28.0399777901166 %
+Solve with parameters [0.14053912 2.43349699]
+  Count:  1810 , QoI:  [-0.01948446]
+Acceptance ratio:  28.050800662617338 %
+Solve with parameters [0.13438425 2.40921548]
+  Count:  1820 , QoI:  [-0.01047183]
+Acceptance ratio:  27.951674903898954 %
+Solve with parameters [0.13863892 2.36637135]
+  Count:  1830 , QoI:  [-0.01355489]
+Acceptance ratio:  27.85363189513927 %
+Solve with parameters [0.15369892 2.4619524 ]
+  Count:  1840 , QoI:  [-0.03603352]
+Acceptance ratio:  27.86529060293319 %
+Solve with parameters [0.15803408 1.89917815]
+  Count:  1850 , QoI:  [-0.01255324]
+Acceptance ratio:  27.984873041599133 %
+Solve with parameters [0.16943116 1.83911795]
+  Count:  1860 , QoI:  [-0.02313874]
+Acceptance ratio:  28.049435787211173 %
+Solve with parameters [0.17605187 1.96161564]
+  Count:  1870 , QoI:  [-0.03652061]
+Acceptance ratio:  27.952966328166756 %
+Solve with parameters [0.143442   2.30138823]
+  Count:  1880 , QoI:  [-0.01606257]
+Acceptance ratio:  27.91068580542265 %
+Solve with parameters [0.17171654 1.70160746]
+  Count:  1890 , QoI:  [-0.01873356]
+Acceptance ratio:  27.921734531993653 %
+Solve with parameters [0.17134837 1.54281672]
+  Count:  1900 , QoI:  [-0.00977247]
+Acceptance ratio:  27.932667017359286 %
+Solve with parameters [0.17296659 1.55099934]
+  Count:  1910 , QoI:  [-0.01223788]
+Acceptance ratio:  27.995813710099426 %
+Solve with parameters [0.17801194 1.50043446]
+  Count:  1920 , QoI:  [-0.01570023]
+Acceptance ratio:  28.05830296720458 %
+Solve with parameters [0.19331502 1.43863943]
+  Count:  1930 , QoI:  [-0.03020085]
+Acceptance ratio:  27.96478508544795 %
+Solve with parameters [0.17529868 1.51386418]
+  Count:  1940 , QoI:  [-0.01310921]
+Acceptance ratio:  27.92375064399794 %
+Solve with parameters [0.13696076 1.96478767]
+  Count:  1950 , QoI:  [0.01207639]
+Acceptance ratio:  27.88313685289595 %
+Solve with parameters [0.16070171 1.99024569]
+  Count:  1960 , QoI:  [-0.02063622]
+Acceptance ratio:  27.842937276899544 %
+Solve with parameters [0.1303873  1.81430969]
+  Count:  1970 , QoI:  [0.03209169]
+Acceptance ratio:  27.85388127853881 %
+Solve with parameters [0.14634548 2.74518359]
+  Count:  1980 , QoI:  [-0.04132741]
+Acceptance ratio:  27.814235234729935 %
+Solve with parameters [0.13170272 2.65012305]
+  Count:  1990 , QoI:  [-0.0200429]
+Acceptance ratio:  27.825213460572577 %
+Solve with parameters [0.14384791 2.11725355]
+  Count:  2000 , QoI:  [-0.00647921]
+Acceptance ratio:  27.786106946526733 %
+Solve with parameters [0.14404215 2.35885499]
+  Count:  2010 , QoI:  [-0.01983147]
+Acceptance ratio:  27.747389358528096 %
+Solve with parameters [0.14259347 2.62126417]
+  Count:  2020 , QoI:  [-0.03137628]
+Acceptance ratio:  27.80801583374567 %
+Solve with parameters [0.15104258 2.51942566]
+  Count:  2030 , QoI:  [-0.03586062]
+Acceptance ratio:  27.720334810438207 %
+Solve with parameters [0.1374815  2.35687296]
+  Count:  2040 , QoI:  [-0.01156758]
+Acceptance ratio:  27.682508574228322 %
+Solve with parameters [0.14256525 2.32251511]
+  Count:  2050 , QoI:  [-0.01610451]
+Acceptance ratio:  27.64505119453925 %
+Solve with parameters [0.13532114 2.21938816]
+  Count:  2060 , QoI:  [-0.00095248]
+Acceptance ratio:  27.55943716642407 %
+Solve with parameters [0.15970189 2.44844423]
+  Count:  2070 , QoI:  [-0.04180183]
+Acceptance ratio:  27.571221632061803 %
+Solve with parameters [0.13662917 2.65859239]
+  Count:  2080 , QoI:  [-0.02636713]
+Acceptance ratio:  27.53483901970207 %
+Solve with parameters [0.15341187 2.77293364]
+  Count:  2090 , QoI:  [-0.04980903]
+Acceptance ratio:  27.594452415112386 %
+Solve with parameters [0.13776112 2.32596958]
+  Count:  2100 , QoI:  [-0.01022532]
+Acceptance ratio:  27.558305568776774 %
+Solve with parameters [0.13516524 2.70705246]
+  Count:  2110 , QoI:  [-0.02708705]
+Acceptance ratio:  27.427759355755565 %
+Solve with parameters [0.11347675 2.46489707]
+  Count:  2120 , QoI:  [0.01550823]
+Acceptance ratio:  27.53418198962753 %
+Solve with parameters [0.11462198 2.80558726]
+  Count:  2130 , QoI:  [-0.00660849]
+Acceptance ratio:  27.498826841858282 %
+Solve with parameters [0.11209129 3.35220178]
+  Count:  2140 , QoI:  [-0.03208939]
+Acceptance ratio:  27.510509107893512 %
+Solve with parameters [0.10057995 3.74761492]
+  Count:  2150 , QoI:  [-0.03773351]
+Acceptance ratio:  27.475592747559276 %
+Solve with parameters [0.12291286 2.26066826]
+  Count:  2160 , QoI:  [0.01424684]
+Acceptance ratio:  27.487274409995372 %
+Solve with parameters [0.13652546 2.57615814]
+  Count:  2170 , QoI:  [-0.02204636]
+Acceptance ratio:  27.49884845693229 %
+Solve with parameters [0.1492725  2.61273882]
+  Count:  2180 , QoI:  [-0.03832919]
+Acceptance ratio:  27.51031636863824 %
+Solve with parameters [0.13329646 2.07393819]
+  Count:  2190 , QoI:  [0.01062808]
+Acceptance ratio:  27.52167959835691 %
+Solve with parameters [0.14343585 2.01647469]
+  Count:  2200 , QoI:  [-0.00015147]
+Acceptance ratio:  27.5329395729214 %
+Solve with parameters [0.13902002 2.67143434]
+  Count:  2210 , QoI:  [-0.02977221]
+Acceptance ratio:  27.634554500226145 %
+Solve with parameters [0.13642178 2.15374627]
+  Count:  2220 , QoI:  [0.00138551]
+Acceptance ratio:  27.645204862674472 %
+Solve with parameters [0.11088063 2.71986177]
+  Count:  2230 , QoI:  [0.00356989]
+Acceptance ratio:  27.700582698341552 %
+Solve with parameters [0.1216371  2.75701102]
+  Count:  2240 , QoI:  [-0.01313345]
+Acceptance ratio:  27.710843373493976 %
+Solve with parameters [0.09312921 2.76072225]
+  Count:  2250 , QoI:  [0.02841527]
+Acceptance ratio:  27.765437583296315 %
+Solve with parameters [0.09835738 3.17169693]
+  Count:  2260 , QoI:  [-0.00523196]
+Acceptance ratio:  27.73109243697479 %
+Solve with parameters [0.10996951 3.32693655]
+  Count:  2270 , QoI:  [-0.02836343]
+Acceptance ratio:  27.829150154117126 %
+Solve with parameters [0.09989226 3.34534016]
+  Count:  2280 , QoI:  [-0.0168468]
+Acceptance ratio:  27.926348092941694 %
+Solve with parameters [0.07427761 3.8491764 ]
+  Count:  2290 , QoI:  [-0.00978604]
+Acceptance ratio:  27.93539938891314 %
+Solve with parameters [0.07966717 3.63863818]
+  Count:  2300 , QoI:  [-0.00561152]
+Acceptance ratio:  27.94437201216862 %
+Solve with parameters [0.08470479 3.7939369 ]
+  Count:  2310 , QoI:  [-0.02084684]
+Acceptance ratio:  27.86672436174816 %
+Solve with parameters [0.09332448 3.34045587]
+  Count:  2320 , QoI:  [-0.00784772]
+Acceptance ratio:  27.919000430848772 %
+Solve with parameters [0.09090779 3.59431585]
+  Count:  2330 , QoI:  [-0.01842886]
+Acceptance ratio:  27.970827970827973 %
+Solve with parameters [0.10297583 3.16159551]
+  Count:  2340 , QoI:  [-0.01092653]
+Acceptance ratio:  28.022212729602735 %
+Solve with parameters [0.10253823 3.72495498]
+  Count:  2350 , QoI:  [-0.03888594]
+Acceptance ratio:  27.903019991492982 %
+Solve with parameters [0.12641005 3.43023009]
+  Count:  2360 , QoI:  [-0.05110745]
+Acceptance ratio:  27.869546802202454 %
+Solve with parameters [0.09986504 2.98788302]
+  Count:  2370 , QoI:  [0.00337378]
+Acceptance ratio:  27.878532264867147 %
+Solve with parameters [0.10887644 3.17966128]
+  Count:  2380 , QoI:  [-0.01951712]
+Acceptance ratio:  27.92944141117178 %
+Solve with parameters [0.14454539 2.36909437]
+  Count:  2390 , QoI:  [-0.02097119]
+Acceptance ratio:  27.938101212881637 %
+Solve with parameters [0.14221692 2.02074874]
+  Count:  2400 , QoI:  [0.00125925]
+Acceptance ratio:  27.988338192419825 %
+Solve with parameters [0.13421948 2.02804281]
+  Count:  2410 , QoI:  [0.01213612]
+Acceptance ratio:  27.8722521775197 %
+Solve with parameters [0.15018368 1.9007206 ]
+  Count:  2420 , QoI:  [-0.0025151]
+Acceptance ratio:  27.757125154894673 %
+Solve with parameters [0.19147482 1.89096193]
+  Count:  2430 , QoI:  [-0.04907981]
+Acceptance ratio:  27.972027972027973 %
+Solve with parameters [0.15437976 1.75673172]
+  Count:  2440 , QoI:  [0.00020118]
+Acceptance ratio:  28.021302744776733 %
+Solve with parameters [0.17851652 2.0373391 ]
+  Count:  2450 , QoI:  [-0.04259434]
+Acceptance ratio:  27.906976744186046 %
+Solve with parameters [0.14314746 2.011561  ]
+  Count:  2460 , QoI:  [0.00052779]
+Acceptance ratio:  27.91548151158066 %
+Solve with parameters [0.1685518  1.75150756]
+  Count:  2470 , QoI:  [-0.01755763]
+Acceptance ratio:  27.84297855119385 %
+Solve with parameters [0.13313859 1.85178159]
+  Count:  2480 , QoI:  [0.02514776]
+Acceptance ratio:  27.851672712615883 %
+Solve with parameters [0.16500471 2.18831527]
+  Count:  2490 , QoI:  [-0.03534361]
+Acceptance ratio:  27.86029706945002 %
+Solve with parameters [0.12000605 2.6044447 ]
+  Count:  2500 , QoI:  [-0.00240526]
+Acceptance ratio:  27.828868452618956 %
+Solve with parameters [0.12443326 2.50035768]
+  Count:  2510 , QoI:  [-0.00243086]
+Acceptance ratio:  27.837514934289125 %
+Solve with parameters [0.11972199 2.44713656]
+  Count:  2520 , QoI:  [0.00734801]
+Acceptance ratio:  27.806426021420073 %
+Solve with parameters [0.10870167 2.81093274]
+  Count:  2530 , QoI:  [0.00125013]
+Acceptance ratio:  27.775582773607272 %
+Solve with parameters [0.11999516 2.36402163]
+  Count:  2540 , QoI:  [0.01208813]
+Acceptance ratio:  27.90240062967336 %
+Solve with parameters [0.10839859 2.53786503]
+  Count:  2550 , QoI:  [0.01862991]
+Acceptance ratio:  27.87142297138377 %
+Solve with parameters [0.11701522 2.71025935]
+  Count:  2560 , QoI:  [-0.00441815]
+Acceptance ratio:  27.957828973057396 %
+Solve with parameters [0.09474888 2.62800541]
+  Count:  2570 , QoI:  [0.03490323]
+Acceptance ratio:  28.004667444574093 %
+Solve with parameters [0.13863944 2.12043394]
+  Count:  2580 , QoI:  [0.00030119]
+Acceptance ratio:  28.08988764044944 %
+Solve with parameters [0.13082006 2.12677679]
+  Count:  2590 , QoI:  [0.01095629]
+Acceptance ratio:  28.05866460825936 %
+Solve with parameters [0.14778684 2.51322654]
+  Count:  2600 , QoI:  [-0.03196407]
+Acceptance ratio:  27.989234909650136 %
+Solve with parameters [0.13311315 2.55687195]
+  Count:  2610 , QoI:  [-0.01686504]
+Acceptance ratio:  27.958636537725013 %
+Solve with parameters [0.10652014 2.9995139 ]
+  Count:  2620 , QoI:  [-0.00663377]
+Acceptance ratio:  27.928271652041204 %
+Solve with parameters [0.12581756 2.98549236]
+  Count:  2630 , QoI:  [-0.0300474]
+Acceptance ratio:  27.860129228430253 %
+Solve with parameters [0.12561222 2.70052629]
+  Count:  2640 , QoI:  [-0.0151445]
+Acceptance ratio:  27.75463839454752 %
+Solve with parameters [0.12486678 2.60186667]
+  Count:  2650 , QoI:  [-0.0087783]
+Acceptance ratio:  27.800829875518673 %
+Solve with parameters [0.12459439 2.81143408]
+  Count:  2660 , QoI:  [-0.0197588]
+Acceptance ratio:  27.809094325441563 %
+Solve with parameters [0.08842698 3.21736848]
+  Count:  2670 , QoI:  [0.006366]
+Acceptance ratio:  27.77985773118682 %
+Solve with parameters [0.10377475 3.13313116]
+  Count:  2680 , QoI:  [-0.01041728]
+Acceptance ratio:  27.713539723983587 %
+Solve with parameters [0.11875421 3.20385216]
+  Count:  2690 , QoI:  [-0.03257237]
+Acceptance ratio:  27.647714604236345 %
+Solve with parameters [0.12049143 2.46924562]
+  Count:  2700 , QoI:  [0.00490163]
+Acceptance ratio:  27.693446871529066 %
+Solve with parameters [0.11966951 2.54292136]
+  Count:  2710 , QoI:  [0.00166282]
+Acceptance ratio:  27.66506824050166 %
+Solve with parameters [0.12482025 2.73742344]
+  Count:  2720 , QoI:  [-0.01612423]
+Acceptance ratio:  27.600147004777654 %
+Solve with parameters [0.13128859 2.6533012 ]
+  Count:  2730 , QoI:  [-0.01970261]
+Acceptance ratio:  27.71878432808495 %
+Solve with parameters [0.09330858 3.23284198]
+  Count:  2740 , QoI:  [-0.00167676]
+Acceptance ratio:  27.76358993068223 %
+Solve with parameters [0.10898218 3.2371569 ]
+  Count:  2750 , QoI:  [-0.02263373]
+Acceptance ratio:  27.735368956743002 %
+Solve with parameters [0.09727083 3.03092178]
+  Count:  2760 , QoI:  [0.00456586]
+Acceptance ratio:  27.77978993118435 %
+Solve with parameters [0.11624446 3.32074022]
+  Count:  2770 , QoI:  [-0.03532412]
+Acceptance ratio:  27.71562612775171 %
+Solve with parameters [0.10709361 3.09811132]
+  Count:  2780 , QoI:  [-0.01287375]
+Acceptance ratio:  27.759798633585042 %
+Solve with parameters [0.10286419 3.15352139]
+  Count:  2790 , QoI:  [-0.01033172]
+Acceptance ratio:  27.767825152275172 %
+Solve with parameters [0.10069724 3.04790955]
+  Count:  2800 , QoI:  [-0.00136143]
+Acceptance ratio:  27.775794359157445 %
+Solve with parameters [0.08711908 3.39783449]
+  Count:  2810 , QoI:  [-0.00243179]
+Acceptance ratio:  27.783706865884028 %
+Solve with parameters [0.08906937 3.66410973]
+  Count:  2820 , QoI:  [-0.01971578]
+Acceptance ratio:  27.827011697979444 %
+Solve with parameters [0.08065471 3.5255775 ]
+  Count:  2830 , QoI:  [-0.00052418]
+Acceptance ratio:  27.90533380430943 %
+Solve with parameters [0.08333072 3.45657361]
+  Count:  2840 , QoI:  [-0.00038901]
+Acceptance ratio:  27.912706793382615 %
+Solve with parameters [0.08094268 3.70028966]
+  Count:  2850 , QoI:  [-0.01083946]
+Acceptance ratio:  27.92002806032971 %
+Solve with parameters [0.07976941 3.6671609 ]
+  Count:  2860 , QoI:  [-0.00736577]
+Acceptance ratio:  27.96225096120238 %
+Solve with parameters [0.10894927 2.60186911]
+  Count:  2870 , QoI:  [0.01367934]
+Acceptance ratio:  27.969348659003828 %
+Solve with parameters [0.13233667 2.57797947]
+  Count:  2880 , QoI:  [-0.01702242]
+Acceptance ratio:  27.97639708434571 %
+Solve with parameters [0.1248708 2.4603116]
+  Count:  2890 , QoI:  [-0.00070264]
+Acceptance ratio:  27.98339674852992 %
+Solve with parameters [0.11684601 3.01288163]
+  Count:  2900 , QoI:  [-0.0207208]
+Acceptance ratio:  27.95587728369528 %
+Solve with parameters [0.14654374 2.6462134 ]
+  Count:  2910 , QoI:  [-0.03694731]
+Acceptance ratio:  28.03160425970457 %
+Solve with parameters [0.17161049 1.87661695]
+  Count:  2920 , QoI:  [-0.02752833]
+Acceptance ratio:  28.004108182129407 %
+Solve with parameters [0.17295837 1.86063403]
+  Count:  2930 , QoI:  [-0.02825832]
+Acceptance ratio:  27.942681678607983 %
+Solve with parameters [0.14459782 2.67094396]
+  Count:  2940 , QoI:  [-0.03599138]
+Acceptance ratio:  27.88167290037402 %
+Solve with parameters [0.14218009 2.24597671]
+  Count:  2950 , QoI:  [-0.01148071]
+Acceptance ratio:  27.888851236868856 %
+Solve with parameters [0.14502385 2.10561303]
+  Count:  2960 , QoI:  [-0.00735911]
+Acceptance ratio:  27.89598108747045 %
+Solve with parameters [0.1728994  2.35171468]
+  Count:  2970 , QoI:  [-0.05083829]
+Acceptance ratio:  27.802086839448 %
+Solve with parameters [0.12659741 2.53567042]
+  Count:  2980 , QoI:  [-0.00735065]
+Acceptance ratio:  27.8430057027843 %
+Solve with parameters [0.12504563 2.49590606]
+  Count:  2990 , QoI:  [-0.00300687]
+Acceptance ratio:  27.850217318622533 %
+Solve with parameters [0.11339046 3.19437055]
+  Count:  3000 , QoI:  [-0.02581377]
+Acceptance ratio:  27.790736421192936 %
+Solve with parameters [0.12132427 2.67073699]
+  Count:  3010 , QoI:  [-0.00795807]
+Acceptance ratio:  27.83128528727997 %
+Solve with parameters [0.12343773 2.69228345]
+  Count:  3020 , QoI:  [-0.01191748]
+Acceptance ratio:  27.83846408474015 %
+Solve with parameters [0.13357585 3.28935146]
+  Count:  3030 , QoI:  [-0.05226168]
+Acceptance ratio:  27.878587924777303 %
+Solve with parameters [0.12243324 2.92164559]
+  Count:  3040 , QoI:  [-0.02283453]
+Acceptance ratio:  27.852680039460704 %
+Solve with parameters [0.11782172 2.57015364]
+  Count:  3050 , QoI:  [0.00264561]
+Acceptance ratio:  27.859718125204854 %
+Solve with parameters [0.12539005 2.60352845]
+  Count:  3060 , QoI:  [-0.00955657]
+Acceptance ratio:  27.834041163018618 %
+Solve with parameters [0.13656129 2.72384028]
+  Count:  3070 , QoI:  [-0.02953654]
+Acceptance ratio:  27.841094106154348 %
+Solve with parameters [0.13165486 2.18636001]
+  Count:  3080 , QoI:  [0.00610246]
+Acceptance ratio:  27.880558260305094 %
+Solve with parameters [0.14482305 2.00733344]
+  Count:  3090 , QoI:  [-0.00149396]
+Acceptance ratio:  27.85506308637981 %
+Solve with parameters [0.15772289 1.98154686]
+  Count:  3100 , QoI:  [-0.0165911]
+Acceptance ratio:  27.79748468236053 %
+Solve with parameters [0.14309133 2.07558778]
+  Count:  3110 , QoI:  [-0.00310926]
+Acceptance ratio:  27.836708453873353 %
+Solve with parameters [0.13656378 2.84504601]
+  Count:  3120 , QoI:  [-0.03540681]
+Acceptance ratio:  27.843639859019547 %
+Solve with parameters [0.11827555 2.63562826]
+  Count:  3130 , QoI:  [-0.00183762]
+Acceptance ratio:  27.88246566592143 %
+Solve with parameters [0.1021088  2.74455727]
+  Count:  3140 , QoI:  [0.01506369]
+Acceptance ratio:  27.857370264247056 %
+Solve with parameters [0.13495034 2.84111778]
+  Count:  3150 , QoI:  [-0.03342133]
+Acceptance ratio:  27.832434147889558 %
+Solve with parameters [0.11284983 2.5403748 ]
+  Count:  3160 , QoI:  [0.01168206]
+Acceptance ratio:  27.934198038595383 %
+Solve with parameters [0.12546811 2.24227791]
+  Count:  3170 , QoI:  [0.01160954]
+Acceptance ratio:  27.97224850204983 %
+Solve with parameters [0.09683656 2.96264159]
+  Count:  3180 , QoI:  [0.00938093]
+Acceptance ratio:  28.104369695064445 %
+Solve with parameters [0.10773067 2.98829085]
+  Count:  3190 , QoI:  [-0.00763757]
+Acceptance ratio:  28.141648386085865 %
+Solve with parameters [0.12512864 3.13729394]
+  Count:  3200 , QoI:  [-0.03657777]
+Acceptance ratio:  28.053733208372382 %
+Solve with parameters [0.11518916 3.18002523]
+  Count:  3210 , QoI:  [-0.02724195]
+Acceptance ratio:  27.96636561818748 %
+Solve with parameters [0.1018843  3.21409642]
+  Count:  3220 , QoI:  [-0.01236398]
+Acceptance ratio:  27.879540515367896 %
+Solve with parameters [0.10789036 2.48861759]
+  Count:  3230 , QoI:  [0.02266395]
+Acceptance ratio:  27.886103373568556 %
+Solve with parameters [0.10343584 2.82475813]
+  Count:  3240 , QoI:  [0.00803852]
+Acceptance ratio:  27.861771058315334 %
+Solve with parameters [0.12953198 2.87629046]
+  Count:  3250 , QoI:  [-0.02895928]
+Acceptance ratio:  27.960627499231006 %
+Solve with parameters [0.11199141 3.22205533]
+  Count:  3260 , QoI:  [-0.02552849]
+Acceptance ratio:  27.96688132474701 %
+Solve with parameters [0.13125609 2.32236205]
+  Count:  3270 , QoI:  [-0.00140758]
+Acceptance ratio:  28.095383674717212 %
+Solve with parameters [0.12772832 2.96291507]
+  Count:  3280 , QoI:  [-0.03113927]
+Acceptance ratio:  28.040231636696127 %
+Solve with parameters [0.13669308 2.49799938]
+  Count:  3290 , QoI:  [-0.01817162]
+Acceptance ratio:  28.046186569431786 %
+Solve with parameters [0.12314553 2.89571108]
+  Count:  3300 , QoI:  [-0.02236392]
+Acceptance ratio:  28.021811572250833 %
+Solve with parameters [0.13433522 2.28726747]
+  Count:  3310 , QoI:  [-0.00354347]
+Acceptance ratio:  28.02778616732105 %
+Solve with parameters [0.15027536 2.43970298]
+  Count:  3320 , QoI:  [-0.03118028]
+Acceptance ratio:  27.97350195724179 %
+Solve with parameters [0.14671686 2.3322888 ]
+  Count:  3330 , QoI:  [-0.02166756]
+Acceptance ratio:  27.919543680576403 %
+Solve with parameters [0.12993352 2.80343234]
+  Count:  3340 , QoI:  [-0.02578822]
+Acceptance ratio:  27.89583956899132 %
+Solve with parameters [0.11890859 2.66689046]
+  Count:  3350 , QoI:  [-0.00450414]
+Acceptance ratio:  27.902118770516264 %
+Solve with parameters [0.11527251 3.24605777]
+  Count:  3360 , QoI:  [-0.0306076]
+Acceptance ratio:  27.819101457899436 %
+Solve with parameters [0.13113783 2.62486482]
+  Count:  3370 , QoI:  [-0.0180214]
+Acceptance ratio:  27.825571047167013 %
+Solve with parameters [0.13217543 2.95074247]
+  Count:  3380 , QoI:  [-0.03556628]
+Acceptance ratio:  27.802425317953265 %
+Solve with parameters [0.12267191 2.69729509]
+  Count:  3390 , QoI:  [-0.01120104]
+Acceptance ratio:  27.749926275434976 %
+Solve with parameters [0.12296777 3.06433773]
+  Count:  3400 , QoI:  [-0.03062545]
+Acceptance ratio:  27.66833284328139 %
+Solve with parameters [0.10466859 2.68679619]
+  Count:  3410 , QoI:  [0.01481263]
+Acceptance ratio:  27.675168572266195 %
+Solve with parameters [0.12956163 2.32931115]
+  Count:  3420 , QoI:  [0.00050858]
+Acceptance ratio:  27.769657994738377 %
+Solve with parameters [0.13224662 2.24234303]
+  Count:  3430 , QoI:  [0.00192274]
+Acceptance ratio:  27.805304575925387 %
+Solve with parameters [0.13106763 2.71445384]
+  Count:  3440 , QoI:  [-0.02260732]
+Acceptance ratio:  27.869805289160126 %
+Solve with parameters [0.12282557 2.22647239]
+  Count:  3450 , QoI:  [0.01655607]
+Acceptance ratio:  27.84700086931324 %
+Solve with parameters [0.13846864 2.41150298]
+  Count:  3460 , QoI:  [-0.01577205]
+Acceptance ratio:  27.824328228835597 %
+Solve with parameters [0.14879999 2.33124946]
+  Count:  3470 , QoI:  [-0.02408225]
+Acceptance ratio:  27.859406511091905 %
+Solve with parameters [0.12193988 2.64155394]
+  Count:  3480 , QoI:  [-0.00713463]
+Acceptance ratio:  27.95173800632002 %
+Solve with parameters [0.12532872 2.58131116]
+  Count:  3490 , QoI:  [-0.00823715]
+Acceptance ratio:  27.92896018332856 %
+Solve with parameters [0.11598668 2.21068958]
+  Count:  3500 , QoI:  [0.02833125]
+Acceptance ratio:  27.934875749785775 %
+Solve with parameters [0.11745056 2.72218104]
+  Count:  3510 , QoI:  [-0.00568715]
+Acceptance ratio:  27.969239532896612 %
+Solve with parameters [0.12739891 2.72823999]
+  Count:  3520 , QoI:  [-0.01885189]
+Acceptance ratio:  27.889804032945186 %
+Solve with parameters [0.12820832 2.44706827]
+  Count:  3530 , QoI:  [-0.00447318]
+Acceptance ratio:  27.86745964316058 %
+Solve with parameters [0.13906796 2.55840178]
+  Count:  3540 , QoI:  [-0.0241687]
+Acceptance ratio:  27.845241457215476 %
+Solve with parameters [0.1066168  2.92868883]
+  Count:  3550 , QoI:  [-0.00271535]
+Acceptance ratio:  27.879470571669952 %
+Solve with parameters [0.09694903 3.3663872 ]
+  Count:  3560 , QoI:  [-0.01414421]
+Acceptance ratio:  27.829261443414772 %
+Solve with parameters [0.0826277  2.96218969]
+  Count:  3570 , QoI:  [0.03237992]
+Acceptance ratio:  27.807336880425655 %
+Solve with parameters [0.10434034 3.27823856]
+  Count:  3580 , QoI:  [-0.01897746]
+Acceptance ratio:  27.813459927394586 %
+Solve with parameters [0.12270782 2.9781673 ]
+  Count:  3590 , QoI:  [-0.02604007]
+Acceptance ratio:  27.819548872180448 %
+Solve with parameters [0.13143304 2.25843975]
+  Count:  3600 , QoI:  [0.00209886]
+Acceptance ratio:  27.88114412663149 %
+Solve with parameters [0.14609503 1.8776229 ]
+  Count:  3610 , QoI:  [0.00439654]
+Acceptance ratio:  27.88701190805871 %
+Solve with parameters [0.1390456  2.12880139]
+  Count:  3620 , QoI:  [-0.00074038]
+Acceptance ratio:  27.920463960231977 %
+Solve with parameters [0.13987927 2.49251972]
+  Count:  3630 , QoI:  [-0.02175666]
+Acceptance ratio:  27.92619113191958 %
+Solve with parameters [0.11359085 2.63957123]
+  Count:  3640 , QoI:  [0.00450972]
+Acceptance ratio:  27.931886844273553 %
+Solve with parameters [0.12577385 3.11720255]
+  Count:  3650 , QoI:  [-0.03634544]
+Acceptance ratio:  27.91016159956176 %
+Solve with parameters [0.07990493 3.80727173]
+  Count:  3660 , QoI:  [-0.01523413]
+Acceptance ratio:  27.888555039606665 %
+Solve with parameters [0.09949268 3.86359719]
+  Count:  3670 , QoI:  [-0.04185781]
+Acceptance ratio:  27.948787796240804 %
+Solve with parameters [0.09423876 3.98792498]
+  Count:  3680 , QoI:  [-0.04167553]
+Acceptance ratio:  27.98152675903287 %
+Solve with parameters [0.09361486 3.35674105]
+  Count:  3690 , QoI:  [-0.00915486]
+Acceptance ratio:  27.959902465456516 %
+Solve with parameters [0.10125081 3.08501831]
+  Count:  3700 , QoI:  [-0.00427988]
+Acceptance ratio:  27.965414752769526 %
+Solve with parameters [0.11074483 3.49491567]
+  Count:  3710 , QoI:  [-0.037361]
+Acceptance ratio:  27.997844246833736 %
+Solve with parameters [0.08289103 3.59904441]
+  Count:  3720 , QoI:  [-0.0079194]
+Acceptance ratio:  28.05697393173878 %
+Solve with parameters [0.10733364 2.85601554]
+  Count:  3730 , QoI:  [0.00052339]
+Acceptance ratio:  28.08898418654516 %
+Solve with parameters [0.10296439 3.04860102]
+  Count:  3740 , QoI:  [-0.004562]
+Acceptance ratio:  28.120823309275593 %
+Solve with parameters [0.0948709  3.25754927]
+  Count:  3750 , QoI:  [-0.00529394]
+Acceptance ratio:  28.179152226073047 %
+Solve with parameters [0.10161962 3.3158223 ]
+  Count:  3760 , QoI:  [-0.01749809]
+Acceptance ratio:  28.18399361871843 %
+Solve with parameters [0.10655468 2.74551728]
+  Count:  3770 , QoI:  [0.00829923]
+Acceptance ratio:  28.215327499337047 %
+Solve with parameters [0.12080968 2.70994008]
+  Count:  3780 , QoI:  [-0.00946859]
+Acceptance ratio:  28.22004760645332 %
+Solve with parameters [0.12678348 2.49039962]
+  Count:  3790 , QoI:  [-0.00503525]
+Acceptance ratio:  28.3038776048536 %
+Solve with parameters [0.1272216  2.75682416]
+  Count:  3800 , QoI:  [-0.02013201]
+Acceptance ratio:  28.25572217837411 %
+Solve with parameters [0.1487815  1.86302477]
+  Count:  3810 , QoI:  [0.00156583]
+Acceptance ratio:  28.234059302020466 %
+Solve with parameters [0.16776948 1.65358232]
+  Count:  3820 , QoI:  [-0.01135065]
+Acceptance ratio:  28.160167495420048 %
+Solve with parameters [0.1487681  1.89237683]
+  Count:  3830 , QoI:  [-0.00013397]
+Acceptance ratio:  28.13886713651788 %
+Solve with parameters [0.18534091 1.96498602]
+  Count:  3840 , QoI:  [-0.04626452]
+Acceptance ratio:  28.143712574850298 %
+Solve with parameters [0.16333973 1.94192677]
+  Count:  3850 , QoI:  [-0.02126536]
+Acceptance ratio:  28.09659828615944 %
+Solve with parameters [0.17652216 2.11673296]
+  Count:  3860 , QoI:  [-0.04413371]
+Acceptance ratio:  28.049728049728053 %
+Solve with parameters [0.15319992 1.99433399]
+  Count:  3870 , QoI:  [-0.01166937]
+Acceptance ratio:  28.028933092224236 %
+Solve with parameters [0.14509336 2.16876273]
+  Count:  3880 , QoI:  [-0.01095356]
+Acceptance ratio:  28.00824529760371 %
+Solve with parameters [0.1629404  2.10038907]
+  Count:  3890 , QoI:  [-0.02880355]
+Acceptance ratio:  28.013364173734256 %
+Solve with parameters [0.16930262 2.19765425]
+  Count:  3900 , QoI:  [-0.04035741]
+Acceptance ratio:  27.967187900538327 %
+Solve with parameters [0.15505289 1.97744064]
+  Count:  3910 , QoI:  [-0.01307482]
+Acceptance ratio:  27.946816670928154 %
+Solve with parameters [0.14783786 2.40666628]
+  Count:  3920 , QoI:  [-0.0267682]
+Acceptance ratio:  27.977556745728133 %
+Solve with parameters [0.13710025 2.41023214]
+  Count:  3930 , QoI:  [-0.01398938]
+Acceptance ratio:  28.008140422284406 %
+Solve with parameters [0.13336505 2.25453445]
+  Count:  3940 , QoI:  [-0.00033395]
+Acceptance ratio:  28.063943161634104 %
+Solve with parameters [0.14225487 1.9922874 ]
+  Count:  3950 , QoI:  [0.00288809]
+Acceptance ratio:  28.094153378891416 %
+Solve with parameters [0.14198739 1.82277054]
+  Count:  3960 , QoI:  [0.01361117]
+Acceptance ratio:  28.07371875788942 %
+Solve with parameters [0.12506069 1.84516822]
+  Count:  3970 , QoI:  [0.03878123]
+Acceptance ratio:  28.053387056157142 %
+Solve with parameters [0.15072107 2.12595796]
+  Count:  3980 , QoI:  [-0.01568958]
+Acceptance ratio:  28.058276814870638 %
+Solve with parameters [0.13047803 2.50780868]
+  Count:  3990 , QoI:  [-0.01086986]
+Acceptance ratio:  28.088198446504638 %
+Solve with parameters [0.13276215 2.59989173]
+  Count:  4000 , QoI:  [-0.01870771]
+Acceptance ratio:  28.067983004248937 %
+Solve with parameters [0.13824788 2.16968174]
+  Count:  4010 , QoI:  [-0.00203298]
+Acceptance ratio:  28.1226626776365 %
+Solve with parameters [0.15219333 2.31196333]
+  Count:  4020 , QoI:  [-0.02705639]
+Acceptance ratio:  28.077592638647104 %
+Solve with parameters [0.1416472  2.22354647]
+  Count:  4030 , QoI:  [-0.00956209]
+Acceptance ratio:  28.107169436864304 %
+Solve with parameters [0.14341867 2.89563653]
+  Count:  4040 , QoI:  [-0.04506992]
+Acceptance ratio:  28.186092551348672 %
+Solve with parameters [0.1252784  2.47626689]
+  Count:  4050 , QoI:  [-0.00218883]
+Acceptance ratio:  28.14119970377685 %
+Solve with parameters [0.14693854 2.22388758]
+  Count:  4060 , QoI:  [-0.01624958]
+Acceptance ratio:  28.12115242551096 %
+Solve with parameters [0.11588063 2.61070321]
+  Count:  4070 , QoI:  [0.00297522]
+Acceptance ratio:  28.15033161385409 %
+Solve with parameters [0.14764973 2.80202352]
+  Count:  4080 , QoI:  [-0.04525624]
+Acceptance ratio:  28.15486400392061 %
+Solve with parameters [0.1406544  2.46828974]
+  Count:  4090 , QoI:  [-0.02143488]
+Acceptance ratio:  28.110486433634808 %
+Solve with parameters [0.13344284 2.48028825]
+  Count:  4100 , QoI:  [-0.01316039]
+Acceptance ratio:  28.139478176054624 %
+Solve with parameters [0.17019235 2.2528973 ]
+  Count:  4110 , QoI:  [-0.04378989]
+Acceptance ratio:  28.144003891997084 %
+Solve with parameters [0.12485482 2.72540001]
+  Count:  4120 , QoI:  [-0.01552367]
+Acceptance ratio:  28.124241688910455 %
+Solve with parameters [0.12383108 2.32616428]
+  Count:  4130 , QoI:  [0.00880639]
+Acceptance ratio:  28.20140401839748 %
+Solve with parameters [0.12623026 2.6872139 ]
+  Count:  4140 , QoI:  [-0.01520995]
+Acceptance ratio:  28.157449891330593 %
+Solve with parameters [0.11242932 3.00916995]
+  Count:  4150 , QoI:  [-0.0149653]
+Acceptance ratio:  28.113707540351722 %
+Solve with parameters [0.11814805 2.93314529]
+  Count:  4160 , QoI:  [-0.01815693]
+Acceptance ratio:  28.142273491949048 %
+Solve with parameters [0.11144526 3.66295548]
+  Count:  4170 , QoI:  [-0.04578627]
+Acceptance ratio:  28.14672740350036 %
+Solve with parameters [0.09302789 2.87589373]
+  Count:  4180 , QoI:  [0.02084528]
+Acceptance ratio:  28.103324563501552 %
+Solve with parameters [0.11168118 2.09699647]
+  Count:  4190 , QoI:  [0.04367086]
+Acceptance ratio:  28.107850155094248 %
+Solve with parameters [0.12200949 2.68032751]
+  Count:  4200 , QoI:  [-0.00939738]
+Acceptance ratio:  28.06474648893121 %
+Solve with parameters [0.14321674 2.32006978]
+  Count:  4210 , QoI:  [-0.01677947]
+Acceptance ratio:  28.069342199002612 %
+Solve with parameters [0.12250737 2.28397003]
+  Count:  4220 , QoI:  [0.01338077]
+Acceptance ratio:  28.050225065150435 %
+Solve with parameters [0.12025433 2.73700739]
+  Count:  4230 , QoI:  [-0.0102422]
+Acceptance ratio:  28.07846844717561 %
+Solve with parameters [0.1044754 3.3248618]
+  Count:  4240 , QoI:  [-0.0215787]
+Acceptance ratio:  28.082999292619665 %
+Solve with parameters [0.112156  3.3354834]
+  Count:  4250 , QoI:  [-0.03135171]
+Acceptance ratio:  28.06398494471889 %
+Solve with parameters [0.09238403 3.10369234]
+  Count:  4260 , QoI:  [0.00737907]
+Acceptance ratio:  28.11546585308613 %
+Solve with parameters [0.0792511  3.56814774]
+  Count:  4270 , QoI:  [-0.00095847]
+Acceptance ratio:  28.143291969093887 %
+Solve with parameters [0.08103483 4.15539747]
+  Count:  4280 , QoI:  [-0.03422315]
+Acceptance ratio:  28.07755197383789 %
+Solve with parameters [0.08017683 3.28186766]
+  Count:  4290 , QoI:  [0.0150922]
+Acceptance ratio:  28.05872756933116 %
+Solve with parameters [0.08771355 3.96699614]
+  Count:  4300 , QoI:  [-0.03319162]
+Acceptance ratio:  28.016740292955127 %
+Solve with parameters [0.08440386 3.83566654]
+  Count:  4310 , QoI:  [-0.02261049]
+Acceptance ratio:  27.97494780793319 %
+Solve with parameters [0.08913139 3.92507318]
+  Count:  4320 , QoI:  [-0.03286427]
+Acceptance ratio:  27.93334876186068 %
+Solve with parameters [0.06924717 3.63699533]
+  Count:  4330 , QoI:  [0.01013533]
+Acceptance ratio:  27.91503117063034 %
+Solve with parameters [0.06351057 3.28316026]
+  Count:  4340 , QoI:  [0.04415462]
+Acceptance ratio:  27.89679797281732 %
+Solve with parameters [0.06893005 3.69756534]
+  Count:  4350 , QoI:  [0.00691659]
+Acceptance ratio:  27.90163180877959 %
+Solve with parameters [0.0684513  4.10871839]
+  Count:  4360 , QoI:  [-0.01576041]
+Acceptance ratio:  27.837651914698462 %
+Solve with parameters [0.08243502 3.60388582]
+  Count:  4370 , QoI:  [-0.00755391]
+Acceptance ratio:  27.77396476778769 %
+Solve with parameters [0.07866901 3.59790047]
+  Count:  4380 , QoI:  [-0.0018393]
+Acceptance ratio:  27.77904587993609 %
+Solve with parameters [0.08484285 3.5118664 ]
+  Count:  4390 , QoI:  [-0.00573934]
+Acceptance ratio:  27.784103848781598 %
+Solve with parameters [0.09087683 3.79271237]
+  Count:  4400 , QoI:  [-0.02851183]
+Acceptance ratio:  27.811860940695297 %
+Solve with parameters [0.10944056 2.94453033]
+  Count:  4410 , QoI:  [-0.00747798]
+Acceptance ratio:  27.8394921786443 %
+Solve with parameters [0.16073165 2.27691654]
+  Count:  4420 , QoI:  [-0.03491008]
+Acceptance ratio:  27.866998416647814 %
+Solve with parameters [0.1449151  2.07709719]
+  Count:  4430 , QoI:  [-0.00561045]
+Acceptance ratio:  27.89438050101557 %
+Solve with parameters [0.16426675 2.1461034 ]
+  Count:  4440 , QoI:  [-0.03251658]
+Acceptance ratio:  27.899121819410045 %
+Solve with parameters [0.14879758 2.12749889]
+  Count:  4450 , QoI:  [-0.01338156]
+Acceptance ratio:  27.858908110536955 %
+Solve with parameters [0.13193839 2.27330718]
+  Count:  4460 , QoI:  [0.00052357]
+Acceptance ratio:  27.88612418740193 %
+Solve with parameters [0.12522361 2.02166475]
+  Count:  4470 , QoI:  [0.02627677]
+Acceptance ratio:  27.93558488033997 %
+Solve with parameters [0.11959474 2.64714213]
+  Count:  4480 , QoI:  [-0.00430338]
+Acceptance ratio:  27.984824815889308 %
+Solve with parameters [0.11743086 2.88186189]
+  Count:  4490 , QoI:  [-0.01450904]
+Acceptance ratio:  27.96704520151414 %
+Solve with parameters [0.08951441 2.96912334]
+  Count:  4500 , QoI:  [0.02037472]
+Acceptance ratio:  27.971561875138857 %
+Solve with parameters [0.08805927 3.21480219]
+  Count:  4510 , QoI:  [0.00707456]
+Acceptance ratio:  27.998226557304367 %
+Solve with parameters [0.09585613 3.30821973]
+  Count:  4520 , QoI:  [-0.00949648]
+Acceptance ratio:  27.980535279805352 %
+Solve with parameters [0.09595124 3.31146491]
+  Count:  4530 , QoI:  [-0.00980533]
+Acceptance ratio:  27.96292209225337 %
+Solve with parameters [0.07685105 3.46464503]
+  Count:  4540 , QoI:  [0.00885714]
+Acceptance ratio:  28.03347280334728 %
+Solve with parameters [0.08197187 3.58042537]
+  Count:  4550 , QoI:  [-0.00557798]
+Acceptance ratio:  28.037793891452427 %
+Solve with parameters [0.09951604 3.30427914]
+  Count:  4560 , QoI:  [-0.01415443]
+Acceptance ratio:  28.042096031572022 %
+Solve with parameters [0.12196252 3.35419639]
+  Count:  4570 , QoI:  [-0.04314851]
+Acceptance ratio:  27.980748195143295 %
+Solve with parameters [0.11301648 2.75457653]
+  Count:  4580 , QoI:  [-0.00148885]
+Acceptance ratio:  27.985156079458633 %
+Solve with parameters [0.11251149 3.35836785]
+  Count:  4590 , QoI:  [-0.03287251]
+Acceptance ratio:  27.98954476148987 %
+Solve with parameters [0.10570047 3.44663906]
+  Count:  4600 , QoI:  [-0.02922188]
+Acceptance ratio:  27.97217996087807 %
+Solve with parameters [0.10824042 3.18581435]
+  Count:  4610 , QoI:  [-0.01904091]
+Acceptance ratio:  27.933203209715895 %
+Solve with parameters [0.12396337 2.37079233]
+  Count:  4620 , QoI:  [0.00589261]
+Acceptance ratio:  28.002596840510712 %
+Solve with parameters [0.13111009 2.68197269]
+  Count:  4630 , QoI:  [-0.02097976]
+Acceptance ratio:  28.028503562945367 %
+Solve with parameters [0.08972422 3.03445291]
+  Count:  4640 , QoI:  [0.01580026]
+Acceptance ratio:  28.032751562163327 %
+Solve with parameters [0.09387056 3.36673539]
+  Count:  4650 , QoI:  [-0.01005694]
+Acceptance ratio:  28.058482046871642 %
+Solve with parameters [0.11380708 2.91394186]
+  Count:  4660 , QoI:  [-0.01156872]
+Acceptance ratio:  28.084102124007725 %
+Solve with parameters [0.13471727 2.21902375]
+  Count:  4670 , QoI:  [-0.00010757]
+Acceptance ratio:  28.066795118818238 %
+Solve with parameters [0.11821772 2.24583299]
+  Count:  4680 , QoI:  [0.02240759]
+Acceptance ratio:  28.04956205938902 %
+Solve with parameters [0.11638745 2.66236552]
+  Count:  4690 , QoI:  [-0.00078624]
+Acceptance ratio:  28.053719889149438 %
+Solve with parameters [0.11918332 3.24030634]
+  Count:  4700 , QoI:  [-0.03481121]
+Acceptance ratio:  28.036587960008507 %
+Solve with parameters [0.10972162 2.89762497]
+  Count:  4710 , QoI:  [-0.00520134]
+Acceptance ratio:  27.99830184674167 %
+Solve with parameters [0.10145481 2.80546651]
+  Count:  4720 , QoI:  [0.01220643]
+Acceptance ratio:  27.981359881381064 %
+Solve with parameters [0.1291777  2.97996544]
+  Count:  4730 , QoI:  [-0.03361153]
+Acceptance ratio:  27.9856267173959 %
+Solve with parameters [0.10649019 3.1037315 ]
+  Count:  4740 , QoI:  [-0.01239023]
+Acceptance ratio:  28.032060746677917 %
+Solve with parameters [0.11303391 2.95016884]
+  Count:  4750 , QoI:  [-0.01254548]
+Acceptance ratio:  27.994106503893917 %
+Solve with parameters [0.10556447 2.85685632]
+  Count:  4760 , QoI:  [0.00299209]
+Acceptance ratio:  27.95631169922285 %
+Solve with parameters [0.1125124 2.6076383]
+  Count:  4770 , QoI:  [0.00801257]
+Acceptance ratio:  27.918675330119473 %
+Solve with parameters [0.13414454 2.5781941 ]
+  Count:  4780 , QoI:  [-0.01926413]
+Acceptance ratio:  27.881196402426273 %
+Solve with parameters [0.12771738 2.4413096 ]
+  Count:  4790 , QoI:  [-0.0034821]
+Acceptance ratio:  27.906491337925278 %
+Solve with parameters [0.11933496 2.80906842]
+  Count:  4800 , QoI:  [-0.01300592]
+Acceptance ratio:  27.890022911893354 %
+Solve with parameters [0.11057502 2.9976698 ]
+  Count:  4810 , QoI:  [-0.01193622]
+Acceptance ratio:  27.894408646850966 %
+Solve with parameters [0.11246798 2.43846432]
+  Count:  4820 , QoI:  [0.01876128]
+Acceptance ratio:  27.898776187512965 %
+Solve with parameters [0.0995003 3.0863409]
+  Count:  4830 , QoI:  [-0.00191305]
+Acceptance ratio:  27.923825294969983 %
+Solve with parameters [0.08224609 3.68636812]
+  Count:  4840 , QoI:  [-0.0118621]
+Acceptance ratio:  27.88680024788267 %
+Solve with parameters [0.0882463  3.19892069]
+  Count:  4850 , QoI:  [0.00776489]
+Acceptance ratio:  27.89115646258503 %
+Solve with parameters [0.09701745 3.56437114]
+  Count:  4860 , QoI:  [-0.02460286]
+Acceptance ratio:  27.89549475416581 %
+Solve with parameters [0.10108179 3.33576071]
+  Count:  4870 , QoI:  [-0.01786579]
+Acceptance ratio:  27.899815233011704 %
+Solve with parameters [0.10230267 3.02620164]
+  Count:  4880 , QoI:  [-0.00235284]
+Acceptance ratio:  27.904118008604794 %
+Solve with parameters [0.10397211 3.3135954 ]
+  Count:  4890 , QoI:  [-0.02036427]
+Acceptance ratio:  27.887957472909424 %
+Solve with parameters [0.11417512 2.72082575]
+  Count:  4900 , QoI:  [-0.00112947]
+Acceptance ratio:  27.933074882677005 %
+Solve with parameters [0.11407003 2.59507581]
+  Count:  4910 , QoI:  [0.00651198]
+Acceptance ratio:  27.916921197312156 %
+Solve with parameters [0.1293085  2.23144786]
+  Count:  4920 , QoI:  [0.00670926]
+Acceptance ratio:  27.921154236943714 %
+Solve with parameters [0.15158985 1.89170406]
+  Count:  4930 , QoI:  [-0.00386244]
+Acceptance ratio:  27.905090245386333 %
+Solve with parameters [0.15135263 2.15950123]
+  Count:  4940 , QoI:  [-0.01824169]
+Acceptance ratio:  27.889091277069415 %
+Solve with parameters [0.15458671 1.75103527]
+  Count:  4950 , QoI:  [0.00025441]
+Acceptance ratio:  27.95394869723288 %
+Solve with parameters [0.15868122 1.74157353]
+  Count:  4960 , QoI:  [-0.00463374]
+Acceptance ratio:  27.958072969159442 %
+Solve with parameters [0.17580209 2.04227136]
+  Count:  4970 , QoI:  [-0.04000877]
+Acceptance ratio:  27.92194729430698 %
+Solve with parameters [0.16348679 1.55095177]
+  Count:  4980 , QoI:  [-4.57024703e-05]
+Acceptance ratio:  27.926119253162017 %
+Solve with parameters [0.14604949 1.64597448]
+  Count:  4990 , QoI:  [0.01882263]
+Acceptance ratio:  27.990382688839908 %
+Solve with parameters [0.180518   1.58735925]
+  Count:  5000 , QoI:  [-0.02317886]
+Number accepted = 1401

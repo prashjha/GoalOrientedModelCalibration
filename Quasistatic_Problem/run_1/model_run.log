@@ -1,0 +1,96 @@
+
+
+save_suf = at_prior_sample
+
+
+
+ Test parameters = [ 0.57699069 16.95517823]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 0.3357726236370517
+
+QoI using exact
+Q(u) = 0.06075013776397114
+Error Q(u) - Q(u0) = -0.27502248587308054, Percent error = -81.90735828730394
+Estimate 1 Q(u) - Q(u0) = -0.2835066531252428, Percent error = -84.43411796183092
+Estimate 2 Q(u) - Q(u0) = -0.1287874818213258, Percent error = -38.35556348409651
+
+QoI using approximate
+
+Q(u) = 0.07300051720845882
+Error Q(u) - Q(u0) = -0.26277210642859283, Percent error = -78.2589430854352
+Estimate 1 Q(u) - Q(u0) = -0.26277210642862314, Percent error = -78.25894308544423
+Estimate 2 Q(u) - Q(u0) = -0.1316955097328768, Percent error = -39.2216340648519
+
+
+
+save_suf = at_posterior_real_mean
+
+
+
+ Test parameters = [0.118396   2.62795995]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 0.3357726236370517
+
+QoI using exact
+Q(u) = 0.3342148164371923
+Error Q(u) - Q(u0) = -0.0015578071998593734, Percent error = -0.46394705529753416
+Estimate 1 Q(u) - Q(u0) = -0.0017716063628983555, Percent error = -0.5276208476166141
+Estimate 2 Q(u) - Q(u0) = -0.0012254612633166937, Percent error = -0.36496759326077083
+
+QoI using approximate
+
+Q(u) = 0.3344258805050442
+Error Q(u) - Q(u0) = -0.0013467431320074996, Percent error = -0.40108783063363773
+Estimate 1 Q(u) - Q(u0) = -0.0013467431320078626, Percent error = -0.4010878306337458
+Estimate 2 Q(u) - Q(u0) = -0.0008280134832549739, Percent error = -0.24659946194720225
+
+
+
+save_suf = at_posterior_ln_mean
+
+
+
+ Test parameters = [0.11693256 2.59222005]
+
+
+
+Solve original forward and dual problem
+
+
+Solve for approximate errors
+
+ *** comparing various estimates ***
+
+Q(u0) = 0.3357726236370517
+
+QoI using exact
+Q(u) = 0.3383604968906797
+Error Q(u) - Q(u0) = 0.0025878732536280258, Percent error = 0.7707219324781368
+Estimate 1 Q(u) - Q(u0) = 0.0023899026634558868, Percent error = 0.7117622150277552
+Estimate 2 Q(u) - Q(u0) = 0.002868949187697794, Percent error = 0.8544321322630939
+
+QoI using approximate
+
+Q(u) = 0.33855536459968283
+Error Q(u) - Q(u0) = 0.0027827409626311472, Percent error = 0.8287575480361701
+Estimate 1 Q(u) - Q(u0) = 0.0027827409626310206, Percent error = 0.8287575480361324
+Estimate 2 Q(u) - Q(u0) = 0.003242156463948672, Percent error = 0.9655809424931653
+
